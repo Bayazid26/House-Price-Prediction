@@ -1,5 +1,9 @@
 from sklearn.linear_model import LinearRegression
+import joblib
 
-def create_model():
-    model = LinearRegression()
-    return model
+model = LinearRegression()
+
+# assume X_train, y_train already exist
+model.fit(X_train, y_train)
+
+joblib.dump(model, "model.pkl")
