@@ -91,7 +91,7 @@ cd House-Price-Prediction
 
 
 
-## 2️⃣ Create Virtual Environment
+### 2️⃣ Create Virtual Environment
 python -m venv venv
 
 Activate environment:
@@ -103,9 +103,9 @@ venv\Scripts\activate
 Mac/Linux:
 
 source venv/bin/activate
-## 3️⃣ Install Dependencies
+###3️⃣ Install Dependencies
 pip install -r requirements.txt
-## 🏋️ Model Training
+###🏋️ Model Training
 
 Run the training script:
 
@@ -119,7 +119,7 @@ What happens during training:
 ✔ Model is evaluated using metrics
 ✔ Model is saved as model.pkl
 
-📈 Model Evaluation
+###📈 Model Evaluation
 
 The model is evaluated using:
 
@@ -128,14 +128,14 @@ The model is evaluated using:
 
 These metrics help measure prediction accuracy.
 
-##🌐 Run Web Application
+###🌐 Run Web Application
 
 Start Streamlit app:
 
 streamlit run app.py
 
 
-## 🧪 How It Works
+### 🧪 How It Works
 Step-by-step flow:
 User enters:
 House size
@@ -145,7 +145,7 @@ Data is converted into NumPy array
 Trained model predicts price
 Result is displayed in web interface
 
-##💡 Example Prediction
+###💡 Example Prediction
 Input:
 Size: 1500 sqft
 Bedrooms: 3
@@ -153,14 +153,14 @@ Age: 10 years
 Output:
 Predicted Price: $300,000+
 
-##📦 Requirements
+###📦 Requirements
 pandas
 numpy
 scikit-learn
 streamlit
 joblib
 
-##🚀 Features
+###🚀 Features
 ✔ End-to-end ML pipeline
 ✔ Clean modular code structure
 ✔ Data preprocessing with pandas
