@@ -110,8 +110,8 @@ joblib
 ✔ Beginner-friendly but professional structure  
 
 ## 👨‍💻 Author
-Your Name  
-GitHub: https://github.com/your-username  
+Bayazid Ahmed
+GitHub: https://github.com/Bayazid26
 
 ## ⭐ Support
 If you like this project, star the repository ⭐ and share it 🚀
